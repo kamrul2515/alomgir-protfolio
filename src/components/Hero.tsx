@@ -33,12 +33,17 @@ export default function Hero() {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary text-5xl md:text-6xl inline-flex items-center min-h-[1.2em]">
             <Typewriter
               options={{
-                strings: ['কম্পিউটার সেন্টার'],
                 autoStart: true,
                 loop: true,
                 delay: 150,
-                pauseFor: 3000,
                 cursorClassName: 'text-primary animate-pulse'
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString('কম্পিউটার সেন্টার')
+                  .pauseFor(3000)
+                  .deleteAll()
+                  .start();
               }}
             />
           </span>
