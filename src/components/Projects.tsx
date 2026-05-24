@@ -13,7 +13,7 @@ export default function Projects() {
     },
     {
       title: "জাতীয় পরিচয় পত্র সংশোধন",
-      image: "https://images.unsplash.com/photo-1633265486064-086b219458ce?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&q=80&w=800",
       desc: "নতুন ভোটার নিবন্ধন, জাতীয় পরিচয় পত্রের ভুল সংশোধন এবং ডুপ্লিকেট কপির জন্য অনলাইনে আবেদন করা হয়।",
       tags: ["NID", "সংশোধন"],
     },

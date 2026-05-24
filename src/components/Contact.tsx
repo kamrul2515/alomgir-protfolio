@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -26,7 +27,7 @@ export default function Contact() {
         </p>
       </motion.div>
 
-      <div className="grid lg:grid-cols-2 gap-16">
+      <div className="grid lg:grid-cols-2 gap-16 items-stretch">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -55,12 +56,22 @@ export default function Contact() {
           </div>
 
           <div className="p-6 rounded-2xl bg-surface-container/40 border border-border flex items-center gap-6 hover:bg-surface-container/60 transition-colors">
+            <div className="w-14 h-14 rounded-full bg-green-500/10 flex items-center justify-center text-green-500 shrink-0">
+              <FaWhatsapp size={24} />
+            </div>
+            <div>
+              <div className="text-sm text-on-surface-variant mb-1">হোয়াটসঅ্যাপ</div>
+              <a href="https://wa.me/8801723312832" target="_blank" rel="noopener noreferrer" className="font-bold text-foreground text-lg hover:text-green-500 transition-colors">01723-312832</a>
+            </div>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-surface-container/40 border border-border flex items-center gap-6 hover:bg-surface-container/60 transition-colors">
             <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
               <MapPin size={24} />
             </div>
             <div>
               <div className="text-sm text-on-surface-variant mb-1">ঠিকানা</div>
-              <div className="font-bold text-foreground text-base">আলহাজ্ব মোজাহার আলী মার্কেট, শহীদ আলী হোসেন সড়ক, উপজেলা সড়ক, নীলফামারী।</div>
+              <div className="font-bold text-foreground text-base">আলহাজ্ব মোজাহার আলী মার্কেট, শহীদ আলী হোসেন সড়ক, উপজেলা সড়ক মাধার মোড়, নীলফামারী।</div>
             </div>
           </div>
         </motion.div>
@@ -70,8 +81,9 @@ export default function Contact() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.4 }}
+          className="h-full"
         >
-          <form className="p-8 rounded-3xl bg-surface-container/30 border border-border space-y-6">
+          <form className="p-8 rounded-3xl bg-surface-container/30 border border-border space-y-6 h-full flex flex-col">
             <div>
               <input 
                 type="text" 
@@ -86,11 +98,10 @@ export default function Contact() {
                 className="w-full bg-surface-container-lowest border border-border rounded-xl p-4 text-foreground placeholder:text-on-surface-variant focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
               />
             </div>
-            <div>
+            <div className="flex-1 flex flex-col min-h-[150px]">
               <textarea 
                 placeholder="আপনার বার্তা লিখুন" 
-                rows={5}
-                className="w-full bg-surface-container-lowest border border-border rounded-xl p-4 text-foreground placeholder:text-on-surface-variant focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
+                className="w-full h-full flex-1 bg-surface-container-lowest border border-border rounded-xl p-4 text-foreground placeholder:text-on-surface-variant focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
               ></textarea>
             </div>
             <button 

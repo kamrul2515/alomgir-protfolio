@@ -13,6 +13,8 @@ export default function ScrollToTop() {
     restDelta: 0.001
   });
 
+
+  
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.scrollY > 300) {
