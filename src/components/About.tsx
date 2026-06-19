@@ -36,7 +36,7 @@ export default function About() {
               আলমগীর কম্পিউটার সেন্টার দীর্ঘ দিন ধরে অত্যন্ত বিশ্বস্ততার সাথে সকল প্রকার অনলাইন সেবা প্রদান করে আসছে। আমরা আমাদের গ্রাহকদের সর্বোচ্চ গুরুত্ব দিয়ে থাকি এবং প্রতিটি কাজ অত্যন্ত নিখুঁত ও যত্ন সহকারে সম্পন্ন করি।
             </p>
             <p className="text-on-surface-variant leading-relaxed text-lg mt-4">
-              আমাদের প্রতিষ্ঠানটি পরিচালনা করছেন মোঃ আলমগীর হোসেন, যিনি একজন সহকারী শিক্ষক। একটি বিশ্বস্ত এবং নির্ভরযোগ্য সেবাকেন্দ্র হিসেবে আমরা নীলফামারীর সৈয়দপুর ও আশেপাশের এলাকার মানুষের কাছে সুপরিচিত।
+              আমাদের প্রতিষ্ঠানটি পরিচালনা করছেন মোঃ আলমগীর হোসাইন, যিনি একজন সহকারী শিক্ষক। একটি বিশ্বস্ত এবং নির্ভরযোগ্য সেবাকেন্দ্র হিসেবে আমরা নীলফামারীর সৈয়দপুর ও আশেপাশের এলাকার মানুষের কাছে সুপরিচিত।
             </p>
             <p className="text-on-surface-variant leading-relaxed text-lg mt-4">
               আমরা জমি খারিজ, জাতীয় পরিচয়পত্র সংশোধন, পাসপোর্ট আবেদন, ও চাকরির আবেদন সহ যাবতীয় অনলাইন সেবার মাধ্যমে তৃণমূল পর্যায়ে নির্ভরযোগ্য ও দ্রুত সেবা পৌঁছে দিতে প্রতিশ্রুতিবদ্ধ।
@@ -56,7 +56,7 @@ export default function About() {
             <User className="text-primary group-hover:scale-110 transition-transform" size={24} />
             <div>
               <div className="text-sm text-on-surface-variant">প্রোপ্রাইটর</div>
-              <div className="font-bold text-foreground text-lg">মোঃ আলমগীর হোসেন</div>
+              <div className="font-bold text-foreground text-lg">মোঃ আলমগীর হোসাইন</div>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ export default function About() {
             <MapPin className="text-primary group-hover:scale-110 transition-transform" size={24} />
             <div>
               <div className="text-sm text-on-surface-variant">ঠিকানা</div>
-              <div className="font-bold text-foreground text-base">আলহাজ্ব মোজাহার আলী মার্কেট, শহীদ আলী হোসেন সড়ক, উপজেলা সড়ক মাধার মোড়, নীলফামারী।</div>
+              <div className="font-bold text-foreground text-base">আলহাজ্ব মোজাহার আলী মার্কেট, শহীদ আলী হোসাইন সড়ক, উপজেলা সড়ক মাধার মোড়, নীলফামারী।</div>
             </div>
           </div>
 

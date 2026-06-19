@@ -71,7 +71,7 @@ export default function Contact() {
             </div>
             <div>
               <div className="text-sm text-on-surface-variant mb-1">ঠিকানা</div>
-              <div className="font-bold text-foreground text-base">আলহাজ্ব মোজাহার আলী মার্কেট, শহীদ আলী হোসেন সড়ক, উপজেলা সড়ক মাধার মোড়, নীলফামারী।</div>
+              <div className="font-bold text-foreground text-base">আলহাজ্ব মোজাহার আলী মার্কেট, শহীদ আলী হোসাইন সড়ক, উপজেলা সড়ক মাধার মোড়, নীলফামারী।</div>
             </div>
           </div>
         </motion.div>
